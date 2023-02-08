@@ -1,0 +1,11 @@
+.form-body{
+    background-color: #EEEEEE;
+}
+.form-body button{
+    background-color: #1167c4 !important;
+    color: white !important;
+}
+.form-body button:hover{
+    background-color: #0A3F77 !important;
+    box-shadow: 0 5px 5px #8b8b8c !important;
+}

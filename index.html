@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="opacity-25 my-5">Bookmarker</h1>
+        <hr>
+        <div class="form-body form-group text-center fa-3x p-3 bg-">
+            <h3 class="">Bookmark your favorite sites</h3>
+            <div class="form-group">
+                <label for="Bookmark" class="fw-bold my-3">Site Name</label>
+            <input type="text" placeholder="Bookmark Name" name="Bookmark" id="bookname" class="form-control w-75 m-auto">
+            <p id="nameError" class="bg-danger text-warning fs-6 fw-bold m-auto w-75 rounded-2 my-2"></p>
+            </div>
+            <div class="form-group">
+                <label for="url" class="fw-bold my-3">Site URL</label>
+                <input type="text" placeholder="Website URL" name="url" id="websites" class="form-control w-75 m-auto">
+                <p id="urlError" class="bg-danger text-warning fs-6 fw-bold m-auto w-75 rounded-3 my-2"></p>
+            </div>
+            <button class="btn btn-outline-success my-3" onclick="addWebsite()">Submit</button>
+        </div>
+        <hr>
+        <div id="tb" class="mb5 d-flex flex-row w-100 flex-wrap">
+        </div>
+        <footer class="opacity-50 fw-bolder">© 2019 Bookmarker Inc.</footer>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
